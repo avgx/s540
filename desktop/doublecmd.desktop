@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=doublecmd
+Name[en]=doublecmd
+Icon=/usr/lib/doublecmd/pixmaps/mainicon/alt/256px-doublecmd.png
+Exec=doublecmd
+Comment[en]=doublecmd-qt
+StartupNotify=true
+

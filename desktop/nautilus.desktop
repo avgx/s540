@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=nautilus
+Name[en]=nautilus
+Icon=Thunar
+Exec=nautilus --browser --no-desktop
+Comment[en]=nautilus file manager
+StartupNotify=true
