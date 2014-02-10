@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=jd-gui
+Name[en]=jd-gui
+Exec=jd-gui
+Comment[en]=jd-gui
