@@ -3,6 +3,7 @@
 var commandLineArguments = process.argv.slice(2);
 
 var util = require('util');
+var js   = require('jsonfile');
 
 //console.l[MB4(og(util.inspect(commandLineArguments))
 //console.log(commandLineArguments[0])
@@ -66,10 +67,14 @@ client.get('/users/'+user+'/starred', {}, function (err, status, body, headers)
                     {
                         console.log("=================");
                         console.log(util.inspect(repos));
+                        js.writeFile(user+'-starred.json', repos, function(err) 
+                        { //json file has four space indenting now
+                          console.log(err);
+                        });
                     }
                 });
             }
-        })(i), 3000*i);
+        })(i), 5000*i);
     }
 });
 

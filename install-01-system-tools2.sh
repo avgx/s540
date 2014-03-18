@@ -7,3 +7,4 @@ sudo apt-get install lubuntu-tweaks
 sudo apt-get install menulibre
 
 sudo apt-get install acpi
+sudo apt-get install pulseaudio

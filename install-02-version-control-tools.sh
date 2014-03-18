@@ -17,4 +17,4 @@ sudo apt-get install tortoisesvn tortoisesvn-nautilus
 sudo apt-get install rabbitvcs-nautilus3
 sudo apt-get install rabbitvcs-gedit
 
-#copy ./desktop/nautilus.desktop to ~?Desktop
+#copy ./desktop/nautilus.desktop to ~/Desktop

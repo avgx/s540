@@ -104,3 +104,17 @@ echo "${JDGUI_HOME}"
 echo "${PATH}"
 which jd-gui
 
+#apktool
+(
+cd $DOWNLOADS
+[ -e apktool_2.0.0b9.jar ] || wget http://miui.connortumbleson.com/other/apktool/test_versions/apktool_2.0.0b9.jar
+[ -e apktool-install-linux-r05-ibot.tar.bz2 ] || wget https://android-apktool.googlecode.com/files/apktool-install-linux-r05-ibot.tar.bz2
+mv ./apktool_2.0.0b9.jar ~/bin/apktool_2.0.0b9.jar
+tar xjvf apktool-install-linux-r05-ibot.tar.bz2
+mv ./apktool-install-linux-r05-ibot/apktool ~/bin
+rm -f ./apktool-install-linux-r05-ibot
+(
+cd ~/bin
+ln -s apktool_2.0.0b9.jar apktool.jar
+)
+)
